@@ -1,0 +1,125 @@
+empty #
+empty empty #
+#
+$push_token $handle_function_begin $write_function_table empty empty empty $handle_function_end empty #
+$push_token $handle_function_begin $write_function_table empty $handle_function_end empty empty #
+empty empty #
+$handle_program_end #
+$push_token $handle_function_begin $write_function_table empty empty $handle_function_end empty empty #
+empty #
+empty #
+empty #
+empty #
+empty #
+empty #
+empty #
+#
+$push_token empty empty empty #
+empty empty empty empty empty #
+$push_token #
+#
+empty empty $handle_array #
+empty empty #
+empty empty #
+empty empty #
+empty empty #
+empty empty #
+empty empty #
+#
+empty empty #
+empty empty #
+empty empty #
+empty empty #
+empty empty #
+$push_token empty #
+$push_token empty $save_struct_name empty $save_struct_member $save_struct $write_struct_table #
+$push_token #
+$push_token empty empty empty empty empty #
+#
+$push_token empty empty #
+#
+empty empty empty empty #
+#
+$push_token empty empty $write_symbol_table empty #
+empty $save_array empty #
+#
+empty $save_assignment #
+#
+empty #
+empty empty empty $save_array_assignment #
+empty empty empty #
+#
+empty empty empty empty empty #
+#
+empty empty empty empty #
+$push_token empty $handle_auto_change #
+$push_token empty $handle_auto_change #
+empty $handle_equal_symbol #
+$handle_auto_change #
+#
+empty $handle_before_identifier empty #
+empty #
+empty empty $handle_jump_void_function #
+empty $handle_token #
+$push_token #
+$push_token #
+empty #
+empty empty #
+empty $handle_token empty #
+empty $handle_token empty #
+#
+empty empty #
+empty $handle_token empty #
+empty $handle_token empty #
+#
+$push_token #
+empty $handle_before_identifier empty #
+$push_token #
+$push_token #
+empty empty empty #
+$push_token #
+$push_token #
+#
+empty empty $handle_jump_function #
+empty #
+empty $handle_token #
+empty empty empty $handle_begin_if empty #
+empty empty empty empty #
+$handle_end_if #
+#
+$handle_else empty #
+empty empty $handle_end_if #
+$handle_judge_end empty empty $handle_else_if empty empty empty empty #
+$handle_begin_while empty empty $handle_do_while empty empty $handle_end_while #
+$handle_begin_for empty empty $handle_judge_for empty $handle_after_do empty $handle_do_for empty empty $handle_end_for #
+$push_token empty empty empty $write_symbol_table #
+$push_token empty empty empty #
+$push_token $handle_auto_change empty #
+$push_token $handle_auto_change empty #
+empty empty #
+#
+$push_token empty empty empty #
+$push_token $handle_auto_change empty #
+$push_token $handle_auto_change empty #
+empty empty #
+#
+empty empty #
+empty $handle_token empty #
+#
+empty empty #
+empty $handle_token empty #
+#
+empty empty $handle_compare_symbol #
+$push_token #
+$push_token #
+$push_token #
+$push_token #
+$push_token #
+$push_token #
+$handle_continue empty #
+$handle_break empty #
+empty empty empty $handle_switch empty empty $handle_switch_end #
+empty empty $handle_case $handle_case_end empty #
+$handle_default empty empty #
+#
+empty empty $handle_return #

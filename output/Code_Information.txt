@@ -1,0 +1,72 @@
+int main()
+{
+    int a,b,c;
+    double p=3.14,q=6.28,m=9.42;
+    float x=1.2,y,z;
+    double A,B,R=9,r=8;
+    char ch = 'c';
+    a = 3;
+    b = 5;
+    c = 7; 
+    y = 2.3;
+    z = 3.5;
+    /*if≈–∂œ*/
+    if(a<b)
+    {
+        if(a>0)
+        {
+            p = q+m;
+        }
+    }
+    else if(a>b)
+    {
+        z = x+y;
+    }
+    else
+    {
+        a=0;
+        b=0;
+        c=0;
+    }
+    int cycle = 10;
+    /*while≈–∂œ*/
+    while(cycle!=0)
+    {
+        cycle--;
+        a=a-1;
+    }
+    int i,j;
+    /*for≈–∂œ*/
+    for(i=0;i<8;i++)
+    {
+        for(j=0;j<6;j++)
+        {
+            i=i+j;
+        }
+    }
+    double d=9;
+    /*switch≈–∂œ*/
+    switch(a)
+    {
+    case 1 :
+        a++;
+        a= (a+b)-c*d;
+        break;
+    case 2 :
+        a=a+1;
+        c = c+(b/c)-d;
+        break;
+    default:
+        break;
+    }
+    if(a>b)
+    {
+        B=5;
+        A=2*3.14*(R+r);
+        B=2*3.14*(R+r)/(R-r);
+    }
+    else
+    {
+        x=(y+z)*x;
+    }  
+}
